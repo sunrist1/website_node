@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+nav{
+  background-color: #1b262a!important;
+  color:#fff;
+  box-shadow: none;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#staggered_first > li{
+  opacity: 0;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.index-parallax-container-first{
+  height: 100vh!important;
+}
+
+.small-container{
+  height:200px!important;
+  min-height:0px;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer{
+  background-color: #1b262a!important;
+}
+
+footer .footer-copyright{
+  background-color: #233236!important;
+  color:#fff!important;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.parallax-container .parallax img{
+  filter: blur(3px);
+}
+
+/* 联系我们 */
+.contact_content{
+  padding:1rem;
+}
+
+.company_contact p,.contact_content p{
+  color:#888;
+}
+
+.contact-form{
+  padding-bottom:2rem;
+}
