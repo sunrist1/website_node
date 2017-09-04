@@ -8,7 +8,12 @@ router.get('/', function(req, res, next) {
 
 // 客户案例
 router.get('/products', function(req, res, next) {
-  res.render('products', { title: '客户案例' });
+  var logstr = JSON.stringify({url:req.query});
+
+  var type = JSON.parse(logstr).url
+  var obj = Object.assign({ title: '客户案例' },type)
+  console.log(obj)
+  res.render('products', obj);
 });
 
 // 关于我们

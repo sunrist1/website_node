@@ -82,3 +82,17 @@ blockquote{
   }
 
 }
+
+.tabs .indicator{
+  background-color: $deegGreen;
+}
+
+.tabs .tab a,
+.tabs .tab a:hover, 
+.tabs .tab a.active{
+  color:$deegGreen;
+}
+
+.card .card-action{
+  padding:5px;
+}
