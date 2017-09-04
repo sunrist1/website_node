@@ -6,6 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: '首页' });
 });
 
+// 客户案例
+router.get('/products', function(req, res, next) {
+  res.render('products', { title: '客户案例' });
+});
+
 // 关于我们
 router.get('/aboutus', function(req, res, next) {
   res.render('aboutus', { title: '关于我们' });

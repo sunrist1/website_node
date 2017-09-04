@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "set DEBUG = website_noe && nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
