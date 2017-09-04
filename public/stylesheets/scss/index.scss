@@ -26,11 +26,25 @@ blockquote{
   }
 }
 
+@media screen and (min-width:800px){
+  .right_img{
+    overflow: initial!important;
+  }
+}
+
+@media screen and (max-width:800px){
+  .right_img{
+    img{
+      width:100%;
+    }
+  }
+}
+
 .right_img{
-  overflow: hidden!important;
+  overflow: auto;
   img{
-    height:100%;
-    margin:0px auto;
+      height:100%;
+      margin:0px auto;
   }
 }
 
@@ -81,4 +95,18 @@ blockquote{
     }
   }
 
+}
+
+.tabs .indicator{
+  background-color: $deegGreen;
+}
+
+.tabs .tab a,
+.tabs .tab a:hover, 
+.tabs .tab a.active{
+  color:$deegGreen;
+}
+
+.card .card-action{
+  padding:5px;
 }
